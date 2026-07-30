@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TidyDesk/TidyDesk.csproj" />
+  <Project Path="TidyDesk.Tests/TidyDesk.Tests.csproj" />
+</Solution>
