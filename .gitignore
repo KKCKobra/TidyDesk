@@ -1,0 +1,28 @@
+# Visual Studio and .NET build output
+.vs/
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+*.user
+*.suo
+*.rsuser
+*.sln.docstates
+
+# Test and coverage output
+*.coverage
+*.coveragexml
+*.trx
+coverage/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+
+# Operating-system metadata
+.DS_Store
+Desktop.ini
+Thumbs.db

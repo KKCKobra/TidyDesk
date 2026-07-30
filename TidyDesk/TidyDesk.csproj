@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>TidyDesk</AssemblyName>
+    <RootNamespace>TidyDesk</RootNamespace>
+    <Title>TidyDesk</Title>
+    <Product>TidyDesk</Product>
+    <Description>TidyDesk desktop icon organizer</Description>
+    <Authors>KKCKobra</Authors>
+    <Copyright>Copyright © 2026 KKCKobra</Copyright>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>Assets\TidyDesk.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\TidyDesk.ico">
+      <LogicalName>TidyDesk.AppIcon.ico</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
