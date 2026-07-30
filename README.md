@@ -45,6 +45,8 @@ Layouts and category assignments are saved under the current user's local app
 data. Applying a layout changes only the icon positions exposed by Windows
 Explorer; it does not rename or move any desktop files.
 
+TidyDesk runs locally and does not include network or telemetry code.
+
 Automatically matched icons are marked with **(auto)** in the category editor.
 Manually moving an icon to another category—or manually unassigning it—creates
 an override, so future automatic matching will not change that choice. Select an
@@ -67,3 +69,21 @@ Useful shortcuts:
 The **Settings** window includes dark mode, optional preview minimization,
 display-boundary visibility, and automatic startup selection of uncategorized
 icons. Settings are saved alongside the layout under local application data.
+
+## Requirements
+
+- Windows
+- .NET 10 SDK when building from source
+
+## Build and verify
+
+```powershell
+dotnet build '.\TidyDesk.slnx' --configuration Release
+dotnet run --project '.\TidyDesk.Tests\TidyDesk.Tests.csproj' --configuration Release
+```
+
+The app targets .NET 10 for Windows and uses Windows Forms.
+
+## Author
+
+KKCKobra
